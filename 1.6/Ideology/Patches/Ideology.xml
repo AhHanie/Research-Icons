@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="NeuralSupercharger"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Bioregeneration"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+                <iconSelectionMethod>Manual</iconSelectionMethod>
+                <manualIconPath>UI/Gizmos/BiosculpterCycleHealing</manualIconPath>
+            </li>
+        </value>
+    </Operation>
+</Patch>

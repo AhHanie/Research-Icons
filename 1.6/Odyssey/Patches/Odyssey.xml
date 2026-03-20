@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Fishing"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+                <iconSelectionMethod>Manual</iconSelectionMethod>
+                <manualIconPath>UI/Designators/ZoneCreate_Fishing</manualIconPath>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+                <iconSelectionMethod>PreferredDef</iconSelectionMethod>
+                <preferredDefName>Apparel_Vacsuit</preferredDefName>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+</Patch>

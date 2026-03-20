@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Hydroponics"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Brewing"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="ComplexClothing"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="CarpetMaking"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSelectionMethod>PreferredDef</iconSelectionMethod>
+                <preferredDefName>CarpetAuburn</preferredDefName>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Smithing"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+                <iconSelectionMethod>PreferredDef</iconSelectionMethod>
+                <preferredDefName>FueledSmithy</preferredDefName>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="DrugProduction"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+                <iconStuffDef>WoodLog</iconStuffDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="WakeUpProduction"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="LongBlades"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+                <iconStuffDef>Plasteel</iconStuffDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Batteries"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Gunsmithing"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="SmokepopBelt"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="IEDs"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Firefoam"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Prosthetics"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="GasOperation"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="MicroelectronicsBasics"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSelectionMethod>PreferredDef</iconSelectionMethod>
+                <preferredDefName>CommsConsole</preferredDefName>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="BiofuelRefining"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="MedicineProduction"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="ShieldBelt"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="PrecisionRifling"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="MultibarrelWeapons"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="LongRangeMineralScanner"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="HeavyTurrets"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="GroundPenetratingScanner"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="SniperTurret"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="RocketswarmLauncher"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Fabrication"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="ChargedShot"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+                <iconSelectionMethod>PreferredDef</iconSelectionMethod>
+                <preferredDefName>Gun_ChargeRifle</preferredDefName>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="ShipCryptosleep"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="PlateArmor"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconStuffDef>Plasteel</iconStuffDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="FlakArmor"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconStuffDef>Plasteel</iconStuffDef>
+                <iconSelectionMethod>PreferredDef</iconSelectionMethod>
+                <preferredDefName>Apparel_FlakVest</preferredDefName>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Stonecutting"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconStuffDef>WoodLog</iconStuffDef>
+                <iconSelectionMethod>PreferredDef</iconSelectionMethod>
+                <preferredDefName>TableStonecutter</preferredDefName>
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+</Patch>

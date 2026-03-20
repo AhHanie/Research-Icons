@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="TurretPack"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+</Patch>

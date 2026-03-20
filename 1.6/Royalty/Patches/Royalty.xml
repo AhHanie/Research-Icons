@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="NobleApparel"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+                <iconSelectionMethod>PreferredDef</iconSelectionMethod>
+                <preferredDefName>Apparel_HatTop</preferredDefName>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="RoyalApparel"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+                <iconSelectionMethod>PreferredDef</iconSelectionMethod>
+                <preferredDefName>Apparel_Crown</preferredDefName>
+                <iconStuffDef>Plasteel</iconStuffDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="JumpPack"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Gunlink"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+</Patch>

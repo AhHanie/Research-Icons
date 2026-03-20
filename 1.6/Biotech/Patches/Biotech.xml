@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Deathrest"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>32.0</iconSize>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="StandardMechtech"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSelectionMethod>PreferredDef</iconSelectionMethod>
+                <preferredDefName>Mech_Cyclops</preferredDefName>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ResearchProjectDef[defName="Archogenetics"]</xpath>
+        <value>
+            <li Class="Research_Icons.ResearchProjectExtension">
+                <iconSize>28.0</iconSize>
+                <iconSelectionMethod>Manual</iconSelectionMethod>
+                <manualIconPath>Things/Item/Special/Genepack/Genepack_f</manualIconPath>
+            </li>
+        </value>
+    </Operation>
+</Patch>
