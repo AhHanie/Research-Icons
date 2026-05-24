@@ -27,11 +27,20 @@ namespace Research_Icons.Patches
 
         internal static void DrawProjectIcons(MainTabWindow_Research window)
         {
-            List<ResearchProjectDef> visibleResearchProjects = window.VisibleResearchProjects;
+            DrawProjectIcons(window.VisibleResearchProjects, window.CurTab);
+        }
+
+        internal static void DrawProjectIcons(List<ResearchProjectDef> visibleResearchProjects, ResearchTabDef curTab)
+        {
+            if (visibleResearchProjects == null || curTab == null)
+            {
+                return;
+            }
+
             for (int i = 0; i < visibleResearchProjects.Count; i++)
             {
                 ResearchProjectDef project = visibleResearchProjects[i];
-                if (project.tab != window.CurTab || project.IsHidden)
+                if (project.tab != curTab || project.IsHidden)
                 {
                     continue;
                 }
@@ -75,7 +84,7 @@ namespace Research_Icons.Patches
         internal static bool CallsMethod(CodeInstruction instruction, MethodInfo method)
         {
             return method != null
-                && instruction.opcode == OpCodes.Call
+                && (instruction.opcode == OpCodes.Call || instruction.opcode == OpCodes.Callvirt)
                 && instruction.operand is MethodInfo calledMethod
                 && calledMethod == method;
         }
@@ -90,7 +99,7 @@ namespace Research_Icons.Patches
 
         internal static bool CallsMethodNamed(CodeInstruction instruction, string methodName)
         {
-            return instruction.opcode == OpCodes.Call
+            return (instruction.opcode == OpCodes.Call || instruction.opcode == OpCodes.Callvirt)
                 && instruction.operand is MethodInfo calledMethod
                 && calledMethod.Name == methodName;
         }
